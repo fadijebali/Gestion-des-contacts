@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="Affichage">
+        <ListPreference
+            app:defaultValue="16"
+            app:entries="@array/tailles_libelles"
+            app:entryValues="@array/tailles_valeurs"
+            app:key="taille_police"
+            app:title="Taille de police"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="#000000"
+            app:entries="@array/couleurs_libelles"
+            app:entryValues="@array/couleurs_valeurs"
+            app:key="couleur_preferee"
+            app:title="Couleur préférée"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Liste des contacts">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="appel_depuis_liste"
+            app:title="Activer l'appel depuis la liste"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="NOM_ASC"
+            app:entries="@array/sort_libelles"
+            app:entryValues="@array/sort_valeurs"
+            app:key="ordre_tri"
+            app:title="Ordre de tri"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

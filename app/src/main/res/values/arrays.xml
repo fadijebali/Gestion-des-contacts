@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tailles_libelles">
+        <item>Petite (14 sp)</item>
+        <item>Moyenne (16 sp)</item>
+        <item>Grande (20 sp)</item>
+    </string-array>
+    <string-array name="tailles_valeurs">
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="couleurs_libelles">
+        <item>Noir</item>
+        <item>Bleu</item>
+        <item>Vert</item>
+        <item>Rouge</item>
+        <item>Violet</item>
+    </string-array>
+    <string-array name="couleurs_valeurs">
+        <item>#000000</item>
+        <item>#0000FF</item>
+        <item>#008000</item>
+        <item>#FF0000</item>
+        <item>#800080</item>
+    </string-array>
+
+    <string-array name="sort_libelles">
+        <item>Nom (A-Z)</item>
+        <item>Prénom (A-Z)</item>
+        <item>Favoris en premier</item>
+    </string-array>
+    <string-array name="sort_valeurs">
+        <item>NOM_ASC</item>
+        <item>PRENOM_ASC</item>
+        <item>FAVORI_FIRST</item>
+    </string-array>
+</resources>
